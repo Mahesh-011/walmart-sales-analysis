@@ -29,7 +29,8 @@ This project analyzes Walmart’s sales data using SQL and Power BI. It covers s
 
 ## 🖼️ Dashboard Preview
 
-![Dashboard](dashboard.png)
+![Dashboard](<img width="592" alt="WALMART_ANALYSIS" src="https://github.com/user-attachments/assets/d3cfabf5-63db-4222-8f45-dbadcb9ec7b2" />
+)
 
 ---
 
