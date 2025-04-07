@@ -2,6 +2,17 @@
 
 This project analyzes Walmart’s sales data using SQL and Power BI. It covers sales trends, seasonality, store performance, and external factors like fuel prices and holidays.
 
+## 📌 Project Overview
+
+The objective of this project is to perform a comprehensive analysis of Walmart's sales data to identify:
+- Seasonal and quarterly sales trends
+- High-performing and underperforming products
+- Regional sales performance
+- Most profitable time periods
+- Customer behavior patterns
+
+The final output is an interactive Power BI dashboard that visualizes the key findings for decision-makers.
+
 ---
 
 ## 📂 Project Files
@@ -26,6 +37,19 @@ This project analyzes Walmart’s sales data using SQL and Power BI. It covers s
 - GitHub
 
 ---
+### 🔧 Data Preprocessing (Performed in SQL):
+- Removed unnecessary columns (e.g., SKU, ASIN, Style)
+- Standardized date format
+- Renamed inconsistent column headers
+- Added a `Date` column for trend analysis
+
+  ## 📊 Key Insights
+
+- **Quarter 4** generated the highest sales due to holiday shopping spikes.
+- **Summer season** showed a noticeable increase in weekly sales.
+- **State-wise Sales**: California and New York contributed the most to overall revenue.
+- **Category-wise**: Electronics and Apparel dominated sales performance.
+- **Top Cities**: Chicago, Los Angeles, and Houston recorded the highest spending.
 
 ## 🖼️ Dashboard Preview
 
@@ -33,12 +57,3 @@ This project analyzes Walmart’s sales data using SQL and Power BI. It covers s
 )
 
 ---
-
-## 📊 Sample SQL Query
-
-```sql
-SELECT QUARTER(Date) AS quarter, YEAR(Date) AS year,
-       SUM(Weekly_Sales) AS total_sales
-FROM walmart_sales
-GROUP BY year, quarter
-ORDER BY year, quarter;
