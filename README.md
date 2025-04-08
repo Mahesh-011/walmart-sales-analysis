@@ -53,7 +53,7 @@ The final output is an interactive Power BI dashboard that visualizes the key fi
 
 ## 🖼️ Dashboard Preview
 
-![Dashboard](<img width="592" alt="WALMART_ANALYSIS" src="https://github.com/user-attachments/assets/d3cfabf5-63db-4222-8f45-dbadcb9ec7b2" />
-)
+![Dashboard]<img width="592" alt="WALMART_ANALYSIS" src="https://github.com/user-attachments/assets/416d5904-2e3e-4e9b-bf36-c7a460d42654" />
+
 
 ---
