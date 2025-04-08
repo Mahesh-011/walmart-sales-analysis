@@ -14,23 +14,6 @@ The objective of this project is to perform a comprehensive analysis of Walmart'
 The final output is an interactive Power BI dashboard that visualizes the key findings for decision-makers.
 
 ---
-
-## 📂 Project Files
-- `walmart_sales_analysis.pbix` → Power BI Dashboard
-- `queries.sql` → SQL queries for analysis
-- `dashboard.png` → Dashboard preview
-
----
-
-## 📈 Power BI Dashboard Includes:
-- Monthly and Quarterly Sales Trends
-- Store-Level Performance
-- Seasonal Sales Analysis
-- Sales Impact from Holidays & Fuel Prices
-- Most Profitable Quarters
-
----
-
 ## 🔧 Tools Used
 - SQL (MySQL)
 - Power BI
@@ -43,13 +26,17 @@ The final output is an interactive Power BI dashboard that visualizes the key fi
 - Renamed inconsistent column headers
 - Added a `Date` column for trend analysis
 
-  ## 📊 Key Insights
+---
 
-- **Quarter 4** generated the highest sales due to holiday shopping spikes.
-- **Summer season** showed a noticeable increase in weekly sales.
-- **State-wise Sales**: California and New York contributed the most to overall revenue.
-- **Category-wise**: Electronics and Apparel dominated sales performance.
-- **Top Cities**: Chicago, Los Angeles, and Houston recorded the highest spending.
+## 📈 Power BI Dashboard Includes:
+- Monthly and Quarterly Sales Trends
+- Store-Level Performance
+- Seasonal Sales Analysis
+- Sales Impact on Holidays and Non-Holidays
+- Fuel Prices vs Sales Comparision
+- Most Profitable Quarters
+
+---
 
 ## 🖼️ Dashboard Preview
 
