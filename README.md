@@ -1,25 +1,20 @@
-📈 Walmart Sales Time Series Forecasting
+# 📈 Walmart Sales Time Series Forecasting
 Objective:
 Forecast Walmart's future sales by analyzing historical sales data using Time Series Analysis and Predictive Modeling techniques.
 
-📂 Project Overview
+# 📂 Project Overview
 In this project, we perform Time Series Forecasting on Walmart's historical sales data to predict future sales trends.
 The goal is to help optimize inventory planning, marketing strategies, and business decisions based on sales seasonality and trends.
 
-🛠️ Tools & Technologies Used
-Python
+# 🛠️ Tools & Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib, Seaborn (Data Visualization)
+- Statsmodels (ARIMA)
+- Scikit-learn (Model Evaluation)
 
-Pandas
-
-NumPy
-
-Matplotlib, Seaborn (Data Visualization)
-
-Statsmodels (ARIMA)
-
-Scikit-learn (Model Evaluation)
-
-🔎 Project Steps
+# 🔎 Project Steps
 Data Collection:
 
 Loaded Walmart sales data for analysis.
@@ -62,25 +57,25 @@ Generated monthly sales forecasts for the next year.
 
 Visualized predicted vs actual sales trends.
 
-📊 Key Results
+# 📊 Key Results
 Achieved a forecasting RMSE of [Insert RMSE value].
 
 Detected clear seasonal patterns and trends in Walmart's sales.
 
 Produced actionable forecasts to assist in business decision-making.
 
-🧠 Future Improvements
+# 🧠 Future Improvements
 Explore advanced time series models like SARIMA, Prophet, or LSTM.
 
 Incorporate additional features like holiday effects and promotions.
 
 Deploy the forecasting model into a production environment.
 
-🚀 Final Note
+# 🚀 Final Note
 This project demonstrates the power of Time Series Forecasting in driving informed, data-backed business strategies.
 Using historical data, we successfully modeled and predicted Walmart’s sales patterns, providing critical insights for future planning.
 
-📌 Sample Visuals
+# 📌 Sample Visuals
 (You can add screenshots like:)
 
 Time Series Decomposition
@@ -89,6 +84,6 @@ ACF & PACF Plots
 
 Forecast Graph
 
-📬 Connect with Me
+# 📬 Connect with Me
 If you found this project interesting, feel free to ⭐ the repository or reach out via LinkedIn!
 
