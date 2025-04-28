@@ -57,11 +57,14 @@ This project demonstrates the power of Time Series Forecasting in driving inform
 Using historical data, we successfully modeled and predicted Walmart’s sales patterns, providing critical insights for future planning.
 
 ## 📌 Sample Visuals
-### Forecast Vs Actual Sales
+- Forecast Vs Actual Sales.
 ![forecast_vs_actual](https://github.com/user-attachments/assets/684c6b53-0117-4274-b96c-82a382c9e0d5)
 
-### Overall Sales Trend
+- Overall Sales Trend.
 ![sales_trend](https://github.com/user-attachments/assets/b27c0e4a-d156-483f-9eb7-03a0aa7746bd)
+
+- Time Series Decomposition.
+![time_series_decom](https://github.com/user-attachments/assets/c655582b-9a45-4725-8242-8f8949875a2f)
 
 
 ## 📬 Connect with Me
