@@ -1,5 +1,5 @@
 # 📈 Walmart Sales Time Series Forecasting
-Objective:
+## 🎯 Objective:
 Forecast Walmart's future sales by analyzing historical sales data using Time Series Analysis and Predictive Modeling techniques.
 
 ## 📂 Project Overview
@@ -34,7 +34,7 @@ The goal is to help optimize inventory planning, marketing strategies, and busin
 - Built and trained the ARIMA(5,1,0) model.
 
 ### Model Evaluation:
-- Forecasted next 12 months sales.
+- Forecasted next 12 months of sales.
 - Calculated performance using Root Mean Squared Error (RMSE).
 - RMSE achieved: 27715.35
 
@@ -43,7 +43,7 @@ The goal is to help optimize inventory planning, marketing strategies, and busin
 - Visualized predicted vs actual sales trends.
 
 ## 📊 Key Results
-- Achieved a forecasting RMSE of 27715.35.
+- Achieved a forecasting RMSE of **27715.35**.
 - Detected clear seasonal patterns and trends in Walmart's sales.
 - Produced actionable forecasts to assist in business decision-making.
 
