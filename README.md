@@ -63,6 +63,7 @@ Using historical data, we successfully modeled and predicted Walmart’s sales p
 - Overall Sales Trend.
 ![sales_trend](https://github.com/user-attachments/assets/b27c0e4a-d156-483f-9eb7-03a0aa7746bd)
 
+
 - Time Series Decomposition.
 ![time_series_decom](https://github.com/user-attachments/assets/c655582b-9a45-4725-8242-8f8949875a2f)
 
