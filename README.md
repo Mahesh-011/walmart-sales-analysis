@@ -15,61 +15,42 @@ The goal is to help optimize inventory planning, marketing strategies, and busin
 - Scikit-learn (Model Evaluation)
 
 # 🔎 Project Steps
-Data Collection:
+# Data Collection:
+- Loaded Walmart sales data for analysis.
 
-Loaded Walmart sales data for analysis.
+# Data Preprocessing:
+- Converted date columns to datetime format.
+- Set the date as the index.
+- Checked for missing values and cleaned the dataset.
 
-Data Preprocessing:
+# Exploratory Data Analysis (EDA):
+- Visualized overall sales trends.
+- Decomposed the time series into trend, seasonality, and residuals.
+- Conducted stationarity testing using the Augmented Dickey-Fuller (ADF) Test.
 
-Converted date columns to datetime format.
+# Model Building:
+- Achieved stationarity by differencing the series.
+- Identified ARIMA parameters (p,d,q) using ACF and PACF plots.
+- Built and trained the ARIMA(5,1,0) model.
 
-Set the date as the index.
+# Model Evaluation:
+- Forecasted next 12 months sales.
+- Calculated performance using Root Mean Squared Error (RMSE).
+- RMSE achieved: [27715.35 ]
 
-Checked for missing values and cleaned the dataset.
-
-Exploratory Data Analysis (EDA):
-
-Visualized overall sales trends.
-
-Decomposed the time series into trend, seasonality, and residuals.
-
-Conducted stationarity testing using the Augmented Dickey-Fuller (ADF) Test.
-
-Model Building:
-
-Achieved stationarity by differencing the series.
-
-Identified ARIMA parameters (p,d,q) using ACF and PACF plots.
-
-Built and trained the ARIMA(5,1,0) model.
-
-Model Evaluation:
-
-Forecasted next 12 months sales.
-
-Calculated performance using Root Mean Squared Error (RMSE).
-
-RMSE achieved: [Insert your RMSE here]
-
-Forecasting:
-
-Generated monthly sales forecasts for the next year.
-
-Visualized predicted vs actual sales trends.
+# Forecasting:
+- Generated monthly sales forecasts for the next year.
+- Visualized predicted vs actual sales trends.
 
 # 📊 Key Results
-Achieved a forecasting RMSE of [Insert RMSE value].
-
-Detected clear seasonal patterns and trends in Walmart's sales.
-
-Produced actionable forecasts to assist in business decision-making.
+- Achieved a forecasting RMSE of [Insert RMSE value].
+- Detected clear seasonal patterns and trends in Walmart's sales.
+- Produced actionable forecasts to assist in business decision-making.
 
 # 🧠 Future Improvements
-Explore advanced time series models like SARIMA, Prophet, or LSTM.
-
-Incorporate additional features like holiday effects and promotions.
-
-Deploy the forecasting model into a production environment.
+- Explore advanced time series models like SARIMA, Prophet, or LSTM.
+- Incorporate additional features like holiday effects and promotions.
+- Deploy the forecasting model into a production environment.
 
 # 🚀 Final Note
 This project demonstrates the power of Time Series Forecasting in driving informed, data-backed business strategies.
