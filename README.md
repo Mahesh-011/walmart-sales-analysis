@@ -61,7 +61,7 @@ Using historical data, we successfully modeled and predicted Walmart’s sales p
 ![forecast_vs_actual](https://github.com/Mahesh-011/walmart-sales-analysis/blob/main/forecast_vs_actual.png?raw=true)
 
 ### - Overall Sales Trend.
-![sales_trend]
+![sales_trend](https://github.com/Mahesh-011/walmart-sales-analysis/blob/main/sales_trend.png?raw=true)
 
 ### - Time Series Decomposition.
 
