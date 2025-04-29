@@ -65,7 +65,7 @@ Using historical data, we successfully modeled and predicted Walmart’s sales p
 
 ### - Time Series Decomposition.
 
-![time_series_decom](https://github.com/user-attachments/assets/c655582b-9a45-4725-8242-8f8949875a2f)
+![time_series_decom](https://github.com/Mahesh-011/walmart-sales-analysis/blob/main/time_series_decom.png?raw=true)
 
 
 ## 📬 Connect with Me
